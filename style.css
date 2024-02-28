@@ -1,0 +1,25 @@
+*{
+ margin: 0;
+ padding :0;
+ overflow: hidden;
+}
+.container{
+ display: flex;
+}
+
+#car{
+ width: 30vw;
+ height: auto;
+}
+
+#right{
+ width:70vw;
+ background-color: #FCFBF4;
+}
+
+.container-right{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+}
