@@ -31,12 +31,14 @@
  flex-direction: column;
  justify-content: center;
  align-items: flex-start;
- padding-left: 50px;
+ /*padding-left: 50px;*/
  margin-top: 150px;
 }
 
 .section1{
  font-size: 1.5em;
+ padding-left: 50px;
+ padding-bottom: 30px;
 }
 
 #s1item{
@@ -50,18 +52,69 @@
 }
 
 .section2{
- background-color: powderblue;
+ background-color: #FFFFFF;
  width: 100%;
+ padding-left: 50px;
+ margin-bottom: 30px;
 }
+
 .formS2{
  display: flex;
  flex-wrap: wrap;
  width: 400px;
  gap: 20px;
+ padding-bottom: 30px;
 }
 
 li{
  display:flex;
  flex-direction: column;
- gap: 5px;
+ gap: 2px;
+ color: #555555;
+ font-size: 12px;
 }
+
+input{
+ border: 2px solid;
+ border-color: gainsboro;
+ border-radius: 5px;
+ width: 175px;
+}
+
+input[type="password"]:invalid{
+ border: 2px solid red;
+}
+
+.section3{
+ padding-left: 50px;
+}
+
+button{
+ border: 2px solid lightskyblue;
+ background-color:lightskyblue;
+ width: 200px;
+ height: 50px;
+ border-radius: 5px;
+ color: white;
+ border-color: lightskyblue;
+ cursor: pointer;
+}
+
+button:hover{
+ color: black;
+}
+
+.s3input{
+ padding-top: 20px;
+}
+
+a{
+ text-decoration: none;
+ color: lightskyblue;
+}
+
+a:hover{
+ color: black;
+}
+
+

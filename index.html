@@ -15,8 +15,8 @@
    <div class="container-right">
     <div class="section1">
       <div id="s1item">This is not a real online service! You know you need something like this in your life to help you realize your
-       deepest dreams. Sign up now to get started.</div>
-      <div>You know you want to.</div>
+       deepest dreams. Sign up <i>now</i> to get started.</div>
+      <div>You <i>know</i> you want to.</div>
     </div>
     <div class="section2">
      <div id="headerS2">Let's do this!</div>
@@ -40,18 +40,18 @@
         </li>
         <li>
          <label for="pass">PASSWORD</label>
-         <input id="pass" type="password">
+         <input id="pass" type="password" pattern=".{8,}" title="*passwords do not match" required>
         </li>
         <li>
          <label for="conPass">CONFIRM PASSWORD</label>
-         <input id="conPass" type="password">
+         <input id="conPass" type="password" pattern=".{8,}" title="*passwords do not match" required>
         </li>
        </ul>
      </form>
     </div>
     <div class="section3">
-     <button>Create Account</button>
-     <div>Already have an account? Log in</div>
+     <button type="submit">Create Account</button>
+     <div class="s3input">Already have an account? <a href="google.com">Log in</a></div>
 
     </div>
     
