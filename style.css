@@ -23,7 +23,7 @@
 
 #right{
  width:70vw;
- background-color: #FCFBF4;
+ background-color: white;
 }
 
 .container-right{
@@ -56,6 +56,10 @@
  width: 100%;
  padding-left: 50px;
  margin-bottom: 30px;
+ box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5),
+   /* Top shadow */
+   0 -5px 5px -5px rgba(0, 0, 0, 0.5);
+  /* Bottom shadow */
 }
 
 .formS2{
@@ -82,7 +86,12 @@ input{
 }
 
 input[type="password"]:invalid{
- border: 2px solid red;
+ border: 2px solid #A30000;
+}
+
+.test label:after{
+ content: " (" attr(data-help) ")";
+ animation: silo-help 100s;
 }
 
 .section3{
